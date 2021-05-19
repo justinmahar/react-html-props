@@ -67,7 +67,7 @@ export const MyComponent = ({ children, ...divProps }: DivProps): JSX.Element =>
 
 You will likely have your own props, of course. 
 
-In this case, simply extend the props for the element you'd like. For instance, `MyComponent extends DivProps`.
+In this case, simply extend the props for the element you'd like. For instance, `MyComponentProps extends DivProps`.
 
 Then use [object destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring) to unpack your desired props.
 
