@@ -22,8 +22,12 @@ Using these types makes it easy to support all standard HTML props for your comp
 
 ### Features include:
 
-- **🛩️ Convenience TypeScript HTMLAttributes prop types for all HTML elements**
-  - Easily reference props for any HTML element with shorthand like `DivProps`.
+- **🛩️ TypeScript types for all HTML element props**
+  - Easily reference props for any HTML element with simple names like `DivProps`.
+- **🧠 Easy to remember**
+  - Types start with the HTML element name, so you'll never end up scratching your head.
+- **👍 Optional types for React ref**
+  - Where needed, use types for props inheriting `ref` from `React.DetailedHTMLProps`.
 
 ## Installation
 
@@ -186,7 +190,7 @@ Using the `div` example, `DivPropsWithRef` is defined as the following type:
 export type DivPropsWithRef = React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>;
 ```
 
-A `ref` may not always be applicable, so it remains optional to give you the flexibility.
+> A `ref` may not always be applicable, so it remains optional to give you the flexibility. For instance, components returned by [`styled-components`](https://styled-components.com/) do not support a `ref`.
 
 ## TypeScript
 
