@@ -2,7 +2,7 @@
   <a href="https://github.com/justinmahar/react-html-props">React HTML Props</a>
 </h2>
 <h3 align="center">
-  Convenient TypeScript types for all HTML element React props.
+  Convenient TypeScript types for all React HTML props.
 </h3>
 <p align="center">
   <a href="https://badge.fury.io/js/react-html-props">
@@ -14,7 +14,7 @@
 
 ## Overview
 
-This package includes convenient [TypeScript](https://www.typescriptlang.org/) type definitions for all HTML element React props.
+This package includes convenient [TypeScript](https://www.typescriptlang.org/) type definitions for all React HTML props.
 
 For example, this allows you to use the type `DivProps` instead of:
 
@@ -28,12 +28,12 @@ Using these types makes it easy to support all standard HTML props for your comp
 
 ### Features include:
 
-- **🧩 TypeScript types for all HTML element props**
-  - Easily add types for HTML element props with simple names like `DivProps`.
+- **🧩 TypeScript types for all React HTML props**
+  - Easily use types for HTML props with simple names like `DivProps`.
 - **🧠 Easy to remember**
-  - Types start with the HTML element name, so you'll never end up scratching your head.
+  - All types start with the HTML element name, so you'll never end up scratching your head.
 - **👍 Optional types without React ref**
-  - Where needed, use types for props that don't inherit `ref` from `React.DetailedHTMLProps`.
+  - Where needed, use `WithoutRef` types for props that don't inherit `ref` from `React.DetailedHTMLProps`.
 
 ## Installation
 
