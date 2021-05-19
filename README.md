@@ -65,32 +65,28 @@ export const MyComponent = ({ children, ...divProps }: DivProps): JSX.Element =>
 
 You will likely have your own props, of course. 
 
-So you can use TypeScript's [*intersection types*](https://www.typescriptlang.org/docs/handbook/2/objects.html#intersection-types) notation to combine your own props with the HTML element's props.
+In this case, simply extend the props for the element you'd like. For instance, `MyComponent extends DivProps`.
 
-Then use [object destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring) to unpack your own props out of the resulting combined type.
+Then use [object destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring) to unpack your desired props.
 
 Just follow the example below:
 
 ```tsx
-import { DivProps } from 'react-html-props';
-
-interface PandaBearComponentProps {
-  pandaBearCount: 10;
+interface KindleOfKittensProps extends DivProps {
+  kittenCount: 10;
 }
 
-export const PandaBearComponent = ({
-  children,
-  pandaBearCount,
-  ...divProps
-}: PandaBearComponentProps & DivProps): JSX.Element => {
+export const KindleOfKittens = ({ children, kittenCount, ...divProps }: KindleOfKittensProps): JSX.Element => {
   return (
     <div {...divProps}>
-      <h1>I have {pandaBearCount} panda bears</h1>
+      <h1>I have a kindle of {kittenCount} kittens</h1>
       <div>{children}</div>
     </div>
   );
 };
 ```
+
+(Yes, a group of kittens is called a "kindle")
 
 ## Included HTML Element Props
 
