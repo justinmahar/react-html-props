@@ -3,9 +3,9 @@ import * as React from 'react';
 export type AnchorProps = React.HTMLAttributes<HTMLAnchorElement>;
 /** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement>` */
 export type AnchorPropsWithRef = React.DetailedHTMLProps<React.HTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement>;
-/** Equivalent to `React.HTMLAttributes<HTMLAnchorElement>` */
+/** Equivalent to `AnchorProps` and `React.HTMLAttributes<HTMLAnchorElement>` */
 export type AProps = AnchorProps;
-/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement>` */
+/** Equivalent to `AnchorPropsWithRef` and `React.DetailedHTMLProps<React.HTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement>` */
 export type APropsWithRef = AnchorPropsWithRef;
 /** Equivalent to `React.HTMLAttributes<HTMLAreaElement>` */
 export type AreaProps = React.HTMLAttributes<HTMLAreaElement>;
@@ -81,29 +81,29 @@ export type FormPropsWithRef = React.DetailedHTMLProps<React.HTMLAttributes<HTML
 export type HeadingProps = React.HTMLAttributes<HTMLHeadingElement>;
 /** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLHeadingElement>, HTMLHeadingElement>` */
 export type HeadingPropsWithRef = React.DetailedHTMLProps<React.HTMLAttributes<HTMLHeadingElement>, HTMLHeadingElement>;
-/** Equivalent to `React.HTMLAttributes<HTMLHeadingElement>` */
+/** Equivalent to `HeadingProps` and `React.HTMLAttributes<HTMLHeadingElement>` */
 export type H1Props = HeadingProps;
-/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLHeadingElement>, HTMLHeadingElement>` */
+/** Equivalent to `HeadingPropsWithRef` and `React.DetailedHTMLProps<React.HTMLAttributes<HTMLHeadingElement>, HTMLHeadingElement>` */
 export type H1PropsWithRef = HeadingPropsWithRef;
-/** Equivalent to `React.HTMLAttributes<HTMLHeadingElement>` */
+/** Equivalent to `HeadingProps` and `React.HTMLAttributes<HTMLHeadingElement>` */
 export type H2Props = HeadingProps;
-/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLHeadingElement>, HTMLHeadingElement>` */
+/** Equivalent to `HeadingPropsWithRef` and `React.DetailedHTMLProps<React.HTMLAttributes<HTMLHeadingElement>, HTMLHeadingElement>` */
 export type H2PropsWithRef = HeadingPropsWithRef;
-/** Equivalent to `React.HTMLAttributes<HTMLHeadingElement>` */
+/** Equivalent to `HeadingProps` and `React.HTMLAttributes<HTMLHeadingElement>` */
 export type H3Props = HeadingProps;
-/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLHeadingElement>, HTMLHeadingElement>` */
+/** Equivalent to `HeadingPropsWithRef` and `React.DetailedHTMLProps<React.HTMLAttributes<HTMLHeadingElement>, HTMLHeadingElement>` */
 export type H3PropsWithRef = HeadingPropsWithRef;
-/** Equivalent to `React.HTMLAttributes<HTMLHeadingElement>` */
+/** Equivalent to `HeadingProps` and `React.HTMLAttributes<HTMLHeadingElement>` */
 export type H4Props = HeadingProps;
-/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLHeadingElement>, HTMLHeadingElement>` */
+/** Equivalent to `HeadingPropsWithRef` and `React.DetailedHTMLProps<React.HTMLAttributes<HTMLHeadingElement>, HTMLHeadingElement>` */
 export type H4PropsWithRef = HeadingPropsWithRef;
-/** Equivalent to `React.HTMLAttributes<HTMLHeadingElement>` */
+/** Equivalent to `HeadingProps` and `React.HTMLAttributes<HTMLHeadingElement>` */
 export type H5Props = HeadingProps;
-/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLHeadingElement>, HTMLHeadingElement>` */
+/** Equivalent to `HeadingPropsWithRef` and `React.DetailedHTMLProps<React.HTMLAttributes<HTMLHeadingElement>, HTMLHeadingElement>` */
 export type H5PropsWithRef = HeadingPropsWithRef;
-/** Equivalent to `React.HTMLAttributes<HTMLHeadingElement>` */
+/** Equivalent to `HeadingProps` and `React.HTMLAttributes<HTMLHeadingElement>` */
 export type H6Props = HeadingProps;
-/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLHeadingElement>, HTMLHeadingElement>` */
+/** Equivalent to `HeadingPropsWithRef` and `React.DetailedHTMLProps<React.HTMLAttributes<HTMLHeadingElement>, HTMLHeadingElement>` */
 export type H6PropsWithRef = HeadingPropsWithRef;
 /** Equivalent to `React.HTMLAttributes<HTMLHeadElement>` */
 export type HeadProps = React.HTMLAttributes<HTMLHeadElement>;
@@ -133,13 +133,13 @@ export type InputPropsWithRef = React.DetailedHTMLProps<React.HTMLAttributes<HTM
 export type ModProps = React.HTMLAttributes<HTMLModElement>;
 /** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLModElement>, HTMLModElement>` */
 export type ModPropsWithRef = React.DetailedHTMLProps<React.HTMLAttributes<HTMLModElement>, HTMLModElement>;
-/** Equivalent to `React.HTMLAttributes<HTMLModElement>` */
+/** Equivalent to `ModProps` and `React.HTMLAttributes<HTMLModElement>` */
 export type InsProps = ModProps;
-/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLModElement>, HTMLModElement>` */
+/** Equivalent to `ModPropsWithRef` and `React.DetailedHTMLProps<React.HTMLAttributes<HTMLModElement>, HTMLModElement>` */
 export type InsPropsWithRef = ModPropsWithRef;
-/** Equivalent to `React.HTMLAttributes<HTMLModElement>` */
+/** Equivalent to `ModProps` and `React.HTMLAttributes<HTMLModElement>` */
 export type DelProps = ModProps;
-/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLModElement>, HTMLModElement>` */
+/** Equivalent to `ModPropsWithRef` and `React.DetailedHTMLProps<React.HTMLAttributes<HTMLModElement>, HTMLModElement>` */
 export type DelPropsWithRef = ModPropsWithRef;
 /** Equivalent to `React.HTMLAttributes<HTMLLabelElement>` */
 export type LabelProps = React.HTMLAttributes<HTMLLabelElement>;
@@ -191,9 +191,9 @@ export type ParagraphPropsWithRef = React.DetailedHTMLProps<
   React.HTMLAttributes<HTMLParagraphElement>,
   HTMLParagraphElement
 >;
-/** Equivalent to `React.HTMLAttributes<HTMLParagraphElement>` */
+/** Equivalent to `ParagraphProps` and `React.HTMLAttributes<HTMLParagraphElement>` */
 export type PProps = ParagraphProps;
-/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLParagraphElement>, HTMLParagraphElement>` */
+/** Equivalent to `ParagraphPropsWithRef` and `React.DetailedHTMLProps<React.HTMLAttributes<HTMLParagraphElement>, HTMLParagraphElement>` */
 export type PPropsWithRef = ParagraphPropsWithRef;
 /** Equivalent to `React.HTMLAttributes<HTMLParamElement>` */
 export type ParamProps = React.HTMLAttributes<HTMLParamElement>;
@@ -214,17 +214,17 @@ export type ProgressPropsWithRef = React.DetailedHTMLProps<
 export type QuoteProps = React.HTMLAttributes<HTMLQuoteElement>;
 /** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLQuoteElement>, HTMLQuoteElement>` */
 export type QuotePropsWithRef = React.DetailedHTMLProps<React.HTMLAttributes<HTMLQuoteElement>, HTMLQuoteElement>;
-/** Equivalent to `React.HTMLAttributes<HTMLQuoteElement>` */
+/** Equivalent to `QuoteProps` and `React.HTMLAttributes<HTMLQuoteElement>` */
 export type BlockQuoteProps = QuoteProps;
-/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLQuoteElement>, HTMLQuoteElement>` */
+/** Equivalent to `QuotePropsWithRef` and `React.DetailedHTMLProps<React.HTMLAttributes<HTMLQuoteElement>, HTMLQuoteElement>` */
 export type BlockQuotePropsWithRef = QuotePropsWithRef;
-/** Equivalent to `React.HTMLAttributes<HTMLQuoteElement>` */
+/** Equivalent to `QuoteProps` and `React.HTMLAttributes<HTMLQuoteElement>` */
 export type QProps = QuoteProps;
-/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLQuoteElement>, HTMLQuoteElement>` */
+/** Equivalent to `QuotePropsWithRef` and `React.DetailedHTMLProps<React.HTMLAttributes<HTMLQuoteElement>, HTMLQuoteElement>` */
 export type QPropsWithRef = QuotePropsWithRef;
-/** Equivalent to `React.HTMLAttributes<HTMLQuoteElement>` */
+/** Equivalent to `QuoteProps` and `React.HTMLAttributes<HTMLQuoteElement>` */
 export type CiteProps = QuoteProps;
-/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLQuoteElement>, HTMLQuoteElement>` */
+/** Equivalent to `QuotePropsWithRef` and `React.DetailedHTMLProps<React.HTMLAttributes<HTMLQuoteElement>, HTMLQuoteElement>` */
 export type CitePropsWithRef = QuotePropsWithRef;
 /** Equivalent to `React.HTMLAttributes<HTMLSlotElement>` */
 export type SlotProps = React.HTMLAttributes<HTMLSlotElement>;
@@ -234,9 +234,9 @@ export type SlotPropsWithRef = React.DetailedHTMLProps<React.HTMLAttributes<HTML
 export type ScriptProps = React.HTMLAttributes<HTMLScriptElement>;
 /** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLScriptElement>, HTMLScriptElement>` */
 export type ScriptPropsWithRef = React.DetailedHTMLProps<React.HTMLAttributes<HTMLScriptElement>, HTMLScriptElement>;
-/** Equivalent to `React.HTMLAttributes<HTMLScriptElement>` */
+/** Equivalent to `ScriptProps` and `React.HTMLAttributes<HTMLScriptElement>` */
 export type NoScriptProps = ScriptProps;
-/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLScriptElement>, HTMLScriptElement>` */
+/** Equivalent to `ScriptPropsWithRef` and `React.DetailedHTMLProps<React.HTMLAttributes<HTMLScriptElement>, HTMLScriptElement>` */
 export type NoScriptPropsWithRef = ScriptPropsWithRef;
 /** Equivalent to `React.HTMLAttributes<HTMLSelectElement>` */
 export type SelectProps = React.HTMLAttributes<HTMLSelectElement>;
@@ -269,13 +269,13 @@ export type TableColPropsWithRef = React.DetailedHTMLProps<
   React.HTMLAttributes<HTMLTableColElement>,
   HTMLTableColElement
 >;
-/** Equivalent to `React.HTMLAttributes<HTMLTableColElement>` */
+/** Equivalent to `TableColProps` and `React.HTMLAttributes<HTMLTableColElement>` */
 export type ColProps = TableColProps;
-/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLTableColElement>, HTMLTableColElement>` */
+/** Equivalent to `TableColPropsWithRef` and `React.DetailedHTMLProps<React.HTMLAttributes<HTMLTableColElement>, HTMLTableColElement>` */
 export type ColPropsWithRef = TableColPropsWithRef;
-/** Equivalent to `React.HTMLAttributes<HTMLTableColElement>` */
+/** Equivalent to `TableColProps` and `React.HTMLAttributes<HTMLTableColElement>` */
 export type ColGroupProps = TableColProps;
-/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLTableColElement>, HTMLTableColElement>` */
+/** Equivalent to `TableColPropsWithRef` and `React.DetailedHTMLProps<React.HTMLAttributes<HTMLTableColElement>, HTMLTableColElement>` */
 export type ColGroupPropsWithRef = TableColPropsWithRef;
 /** Equivalent to `React.HTMLAttributes<HTMLTableDataCellElement>` */
 export type TableDataCellProps = React.HTMLAttributes<HTMLTableDataCellElement>;
@@ -284,9 +284,9 @@ export type TableDataCellPropsWithRef = React.DetailedHTMLProps<
   React.HTMLAttributes<HTMLTableDataCellElement>,
   HTMLTableDataCellElement
 >;
-/** Equivalent to `React.HTMLAttributes<HTMLTableDataCellElement>` */
+/** Equivalent to `TableDataCellProps` and `React.HTMLAttributes<HTMLTableDataCellElement>` */
 export type TDProps = TableDataCellProps;
-/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLTableDataCellElement>, HTMLTableDataCellElement>` */
+/** Equivalent to `TableDataCellPropsWithRef` and `React.DetailedHTMLProps<React.HTMLAttributes<HTMLTableDataCellElement>, HTMLTableDataCellElement>` */
 export type TDPropsWithRef = TableDataCellPropsWithRef;
 /** Equivalent to `React.HTMLAttributes<HTMLTableHeaderCellElement>` */
 export type TableHeaderCellProps = React.HTMLAttributes<HTMLTableHeaderCellElement>;
@@ -295,9 +295,9 @@ export type TableHeaderCellPropsWithRef = React.DetailedHTMLProps<
   React.HTMLAttributes<HTMLTableHeaderCellElement>,
   HTMLTableHeaderCellElement
 >;
-/** Equivalent to `React.HTMLAttributes<HTMLTableHeaderCellElement>` */
+/** Equivalent to `TableHeaderCellProps` and `React.HTMLAttributes<HTMLTableHeaderCellElement>` */
 export type THProps = TableHeaderCellProps;
-/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLTableHeaderCellElement>, HTMLTableHeaderCellElement>` */
+/** Equivalent to `TableHeaderCellPropsWithRef` and `React.DetailedHTMLProps<React.HTMLAttributes<HTMLTableHeaderCellElement>, HTMLTableHeaderCellElement>` */
 export type THPropsWithRef = TableHeaderCellPropsWithRef;
 /** Equivalent to `React.HTMLAttributes<HTMLTableRowElement>` */
 export type TableRowProps = React.HTMLAttributes<HTMLTableRowElement>;
@@ -306,9 +306,9 @@ export type TableRowPropsWithRef = React.DetailedHTMLProps<
   React.HTMLAttributes<HTMLTableRowElement>,
   HTMLTableRowElement
 >;
-/** Equivalent to `React.HTMLAttributes<HTMLTableRowElement>` */
+/** Equivalent to `TableRowProps` and `React.HTMLAttributes<HTMLTableRowElement>` */
 export type TRProps = TableRowProps;
-/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLTableRowElement>, HTMLTableRowElement>` */
+/** Equivalent to `TableRowPropsWithRef` and `React.DetailedHTMLProps<React.HTMLAttributes<HTMLTableRowElement>, HTMLTableRowElement>` */
 export type TRPropsWithRef = TableRowPropsWithRef;
 /** Equivalent to `React.HTMLAttributes<HTMLTableSectionElement>` */
 export type TableSectionProps = React.HTMLAttributes<HTMLTableSectionElement>;
@@ -317,17 +317,17 @@ export type TableSectionPropsWithRef = React.DetailedHTMLProps<
   React.HTMLAttributes<HTMLTableSectionElement>,
   HTMLTableSectionElement
 >;
-/** Equivalent to `React.HTMLAttributes<HTMLTableSectionElement>` */
+/** Equivalent to `TableSectionProps` and `React.HTMLAttributes<HTMLTableSectionElement>` */
 export type THeadProps = TableSectionProps;
-/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLTableSectionElement>, HTMLTableSectionElement>` */
+/** Equivalent to `TableSectionPropsWithRef` and `React.DetailedHTMLProps<React.HTMLAttributes<HTMLTableSectionElement>, HTMLTableSectionElement>` */
 export type THeadPropsWithRef = TableSectionPropsWithRef;
-/** Equivalent to `React.HTMLAttributes<HTMLTableSectionElement>` */
+/** Equivalent to `TableSectionProps` and `React.HTMLAttributes<HTMLTableSectionElement>` */
 export type TBodyProps = TableSectionProps;
-/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLTableSectionElement>, HTMLTableSectionElement>` */
+/** Equivalent to `TableSectionPropsWithRef` and `React.DetailedHTMLProps<React.HTMLAttributes<HTMLTableSectionElement>, HTMLTableSectionElement>` */
 export type TBodyPropsWithRef = TableSectionPropsWithRef;
-/** Equivalent to `React.HTMLAttributes<HTMLTableSectionElement>` */
+/** Equivalent to `TableSectionProps` and `React.HTMLAttributes<HTMLTableSectionElement>` */
 export type TFootProps = TableSectionProps;
-/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLTableSectionElement>, HTMLTableSectionElement>` */
+/** Equivalent to `TableSectionPropsWithRef` and `React.DetailedHTMLProps<React.HTMLAttributes<HTMLTableSectionElement>, HTMLTableSectionElement>` */
 export type TFootPropsWithRef = TableSectionPropsWithRef;
 /** Equivalent to `React.HTMLAttributes<HTMLTemplateElement>` */
 export type TemplateProps = React.HTMLAttributes<HTMLTemplateElement>;
