@@ -1,0 +1,7 @@
+# Directories to ignore
+.docz
+dist
+node_modules
+storybook-static
+# Don't ignore (prefix with !)
+!.storybook
