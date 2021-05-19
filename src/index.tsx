@@ -1,6 +1,8 @@
 import * as React from 'react';
 export type AnchorProps = React.HTMLAttributes<HTMLAnchorElement>;
 export type AnchorPropsWithRef = React.DetailedHTMLProps<React.HTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement>;
+export type AProps = AnchorProps;
+export type APropsWithRef = AnchorPropsWithRef;
 export type AreaProps = React.HTMLAttributes<HTMLAreaElement>;
 export type AreaPropsWithRef = React.DetailedHTMLProps<React.HTMLAttributes<HTMLAreaElement>, HTMLAreaElement>;
 export type AudioProps = React.HTMLAttributes<HTMLAudioElement>;
