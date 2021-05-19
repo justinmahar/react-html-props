@@ -37,7 +37,7 @@ npm i react-html-props
 
 Let's use `div` as an example since it's the most common.
 
-You can use `DivProps` to support all props for `div` on your own components. 
+You can use `DivProps` to support all props for `div` in your own components. 
 
 Use the [object destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring) technique below to unpack `children` from the rest of `div`'s props.
 
