@@ -33,8 +33,6 @@ npm i react-html-props
 
 ## Quick Start
 
-### Basic Example
-
 Let's use `div` as an example since it's the most common.
 
 You can use `DivProps` to support all props for `div` in your own components. 
@@ -47,7 +45,7 @@ const MyComponent = (props: DivProps) => {
 };
 ```
 
-### Unpacking Children
+## Unpacking Children
 
 We can use [object destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring) to unpack `children` from the rest of an element's props.
 
@@ -61,7 +59,7 @@ export const MyComponent = ({ children, ...divProps }: DivProps): JSX.Element =>
 };
 ```
 
-### Mixing With Custom Props
+## Mixing With Custom Props
 
 You will likely have your own props, of course. 
 
@@ -171,6 +169,24 @@ You can import any of the following types:
 | `ul`         | `ULProps`                         |
 | `video`      | `VideoProps`                      |
 | `webview`    | `WebViewProps`                    |
+
+> All types have a `WithRef` option that includes a `ref` field. See below.
+
+## Props With Ref
+
+You may need props that include the `ref` field inherited from `React.DetailedHTMLProps`.
+
+For this, all props have a `WithRef` option.
+
+For example, you can use `DivPropsWithRef` for a `div` with a React ref. 
+
+Using the `div` example, `DivPropsWithRef` is defined as the following type:
+
+```ts
+export type DivPropsWithRef = React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>;
+```
+
+A `ref` may not always be applicable, so it remains optional to give you the flexibility.
 
 ## TypeScript
 
