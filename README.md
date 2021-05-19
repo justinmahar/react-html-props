@@ -100,79 +100,80 @@ In some cases there are multiple types available, such as with headings `h1`, `h
 
 You can import any of the following types:
 
-| HTML Element | Props Type To Use                 |
-| ------------ | --------------------------------- |
-| `anchor`     | `AnchorProps`                     |
-| `area`       | `AreaProps`                       |
-| `audio`      | `AudioProps`                      |
-| `base`       | `BaseProps`                       |
-| `body`       | `BodyProps`                       |
-| `br`         | `BRProps`                         |
-| `button`     | `ButtonProps`                     |
-| `canvas`     | `CanvasProps`                     |
-| `data`       | `DataProps`                       |
-| `datalist`   | `DataListProps`                   |
-| `dialog`     | `DialogProps`                     |
-| `div`        | `DivProps`                        |
-| `dl`         | `DLProps`                         |
-| `embed`      | `EmbedProps`                      |
-| `fieldset`   | `FieldSetProps`                   |
-| `form`       | `FormProps`                       |
-| `h1`         | `H1Props`, `HeadingProps`         |
-| `h2`         | `H2Props`, `HeadingProps`         |
-| `h3`         | `H3Props`, `HeadingProps`         |
-| `h4`         | `H4Props`, `HeadingProps`         |
-| `h5`         | `H5Props`, `HeadingProps`         |
-| `h6`         | `H6Props`, `HeadingProps`         |
-| `head`       | `HeadProps`                       |
-| `hr`         | `HRProps`                         |
-| `html`       | `HtmlProps`                       |
-| `iframe`     | `IFrameProps`                     |
-| `img`        | `ImgProps`                        |
-| `input`      | `InputProps`                      |
-| `ins`        | `InsProps`, `ModProps`            |
-| `del`        | `DelProps`, `ModProps`            |
-| `label`      | `LabelProps`                      |
-| `legend`     | `LegendProps`                     |
-| `li`         | `LIProps`                         |
-| `link`       | `LinkProps`                       |
-| `map`        | `MapProps`                        |
-| `meta`       | `MetaProps`                       |
-| `object`     | `ObjectProps`                     |
-| `ol`         | `OLProps`                         |
-| `optgroup`   | `OptGroupProps`                   |
-| `option`     | `OptionProps`                     |
-| `p`          | `PProps`, `ParagraphProps`        |
-| `param`      | `ParamProps`                      |
-| `pre`        | `PreProps`                        |
-| `progress`   | `ProgressProps`                   |
-| `blockquote` | `BlockQuoteProps`, `QuoteProps`   |
-| `q`          | `QProps`, `QuoteProps`            |
-| `cite`       | `CiteProps`, `QuoteProps`         |
-| `slot`       | `SlotProps`                       |
-| `script`     | `ScriptProps`                     |
-| `noscript`   | `NoScriptProps`, `ScriptProps`    |
-| `select`     | `SelectProps`                     |
-| `source`     | `SourceProps`                     |
-| `span`       | `SpanProps`                       |
-| `style`      | `StyleProps`                      |
-| `svg`        | `SVGProps`                        |
-| `table`      | `TableProps`                      |
-| `col`        | `ColProps`, `TableColProps`       |
-| `colgroup`   | `ColGroupProps`, `TableColProps`  |
-| `td`         | `TDProps`, `TableDataCellProps`   |
-| `th`         | `THProps`, `TableHeaderCellProps` |
-| `tr`         | `TRProps`, `TableRowProps`        |
-| `thead`      | `THeadProps`, `TableSectionProps` |
-| `tbody`      | `TBodyProps`, `TableSectionProps` |
-| `tfoot`      | `TFootProps`, `TableSectionProps` |
-| `template`   | `TemplateProps`                   |
-| `textarea`   | `TextAreaProps`                   |
-| `title`      | `TitleProps`                      |
-| `track`      | `TrackProps`                      |
-| `ul`         | `ULProps`                         |
-| `video`      | `VideoProps`                      |
-| `webview`    | `WebViewProps`                    |
+| HTML Element         | Props Type To Use                 |
+| -------------------- | --------------------------------- |
+| `a`                  | `AProps`, `AnchorProps`           |
+| `area`               | `AreaProps`                       |
+| `audio`              | `AudioProps`                      |
+| `base`               | `BaseProps`                       |
+| `body`               | `BodyProps`                       |
+| `br`                 | `BRProps`                         |
+| `button`             | `ButtonProps`                     |
+| `canvas`             | `CanvasProps`                     |
+| `data`               | `DataProps`                       |
+| `datalist`           | `DataListProps`                   |
+| `dialog`             | `DialogProps`                     |
+| `div`                | `DivProps`                        |
+| `dl`                 | `DLProps`                         |
+| `embed`              | `EmbedProps`                      |
+| `fieldset`           | `FieldSetProps`                   |
+| `form`               | `FormProps`                       |
+| `h1`                 | `H1Props`, `HeadingProps`         |
+| `h2`                 | `H2Props`, `HeadingProps`         |
+| `h3`                 | `H3Props`, `HeadingProps`         |
+| `h4`                 | `H4Props`, `HeadingProps`         |
+| `h5`                 | `H5Props`, `HeadingProps`         |
+| `h6`                 | `H6Props`, `HeadingProps`         |
+| `head`               | `HeadProps`                       |
+| `hr`                 | `HRProps`                         |
+| `html`               | `HtmlProps`                       |
+| `iframe`             | `IFrameProps`                     |
+| `img`                | `ImgProps`                        |
+| `input`              | `InputProps`                      |
+| `ins`                | `InsProps`, `ModProps`            |
+| `del`                | `DelProps`, `ModProps`            |
+| `label`              | `LabelProps`                      |
+| `legend`             | `LegendProps`                     |
+| `li`                 | `LIProps`                         |
+| `link`               | `LinkProps`                       |
+| `map`                | `MapProps`                        |
+| `meta`               | `MetaProps`                       |
+| `object`             | `ObjectProps`                     |
+| `ol`                 | `OLProps`                         |
+| `optgroup`           | `OptGroupProps`                   |
+| `option`             | `OptionProps`                     |
+| `p`                  | `PProps`, `ParagraphProps`        |
+| `param`              | `ParamProps`                      |
+| `pre`                | `PreProps`                        |
+| `progress`           | `ProgressProps`                   |
+| `blockquote`         | `BlockQuoteProps`, `QuoteProps`   |
+| `q`                  | `QProps`, `QuoteProps`            |
+| `cite`               | `CiteProps`, `QuoteProps`         |
+| `slot`               | `SlotProps`                       |
+| `script`             | `ScriptProps`                     |
+| `noscript`           | `NoScriptProps`, `ScriptProps`    |
+| `select`             | `SelectProps`                     |
+| `source`             | `SourceProps`                     |
+| `span`               | `SpanProps`                       |
+| `style`              | `StyleProps`                      |
+| `svg`                | `SVGProps`                        |
+| `table`              | `TableProps`                      |
+| `col`                | `ColProps`, `TableColProps`       |
+| `colgroup`           | `ColGroupProps`, `TableColProps`  |
+| `td`                 | `TDProps`, `TableDataCellProps`   |
+| `th`                 | `THProps`, `TableHeaderCellProps` |
+| `tr`                 | `TRProps`, `TableRowProps`        |
+| `thead`              | `THeadProps`, `TableSectionProps` |
+| `tbody`              | `TBodyProps`, `TableSectionProps` |
+| `tfoot`              | `TFootProps`, `TableSectionProps` |
+| `template`           | `TemplateProps`                   |
+| `textarea`           | `TextAreaProps`                   |
+| `title`              | `TitleProps`                      |
+| `track`              | `TrackProps`                      |
+| `ul`                 | `ULProps`                         |
+| `video`              | `VideoProps`                      |
+| `webview`            | `WebViewProps`                    |
+| Generic HTML Element | `ElementProps`                    |
 
 > All types have a `WithRef` option that includes a `ref` field. See below.
 
