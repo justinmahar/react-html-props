@@ -23,7 +23,7 @@ Using these types makes it easy to support all standard HTML props for your comp
 ### Features include:
 
 - **🛩️ Convenience TypeScript HTMLAttributes prop types for all HTML elements**
-  - Easily reference props for any HTML element with shorthand like `DivProps` instead of `React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>`.
+  - Easily reference props for any HTML element with shorthand like `DivProps`.
 
 ## Installation
 
@@ -39,15 +39,15 @@ Let's use `div` as an example since it's the most common.
 
 You can use `DivProps` to support all props for `div` in your own components. 
 
-Use the [object destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring) technique below to unpack `children` from the rest of `div`'s props.
-
 ```tsx
 import { DivProps } from "react-html-props";
 
-export const PandaBearComponent = ({ children, ...divProps }: DivProps): JSX.Element => {
+export const MyComponent = ({ children, ...divProps }: DivProps): JSX.Element => {
   return <div {...divProps}>{children}</div>;
 };
 ```
+
+Here we are using [object destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring) to unpack `children` from the rest of `div`'s props.
 
 ### Mixing With Custom Props
 

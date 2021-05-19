@@ -23,7 +23,14 @@
   "bugs": {
     "url": "https://github.com/justinmahar/react-html-props/issues"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "html",
+    "props",
+    "prop types",
+    "typescript",
+    "react html props"
+  ],
   "dependencies": {},
   "peerDependencies": {
     "react": "^16.13.0",
