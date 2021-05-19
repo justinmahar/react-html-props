@@ -42,12 +42,24 @@ You can use `DivProps` to support all props for `div` in your own components.
 ```tsx
 import { DivProps } from "react-html-props";
 
+const MyComponent = (props: DivProps) => {
+  return <div {...props}>My component</div>;
+};
+```
+
+### Unpacking Children
+
+We can use [object destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring) to unpack `children` from the rest of an element's props.
+
+Using `div` as an example again:
+
+```tsx
+import { DivProps } from "react-html-props";
+
 export const MyComponent = ({ children, ...divProps }: DivProps): JSX.Element => {
   return <div {...divProps}>{children}</div>;
 };
 ```
-
-Here we are using [object destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring) to unpack `children` from the rest of `div`'s props.
 
 ### Mixing With Custom Props
 
