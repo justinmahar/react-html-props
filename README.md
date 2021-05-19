@@ -185,7 +185,7 @@ You may need props that exclude the `ref` field inherited from `React.DetailedHT
 
 For this, all types have a `WithoutRef` option.
 
-For example, you can use `DivPropsWithoutRef` for a `div` with a React ref. 
+For example, you can use `DivPropsWithoutRef` for a `div` without a React ref. 
 
 Using the `div` example, `DivPropsWithoutRef` is defined as the following type:
 
