@@ -14,9 +14,9 @@
 
 ## Overview
 
-This package includes convenience [TypeScript](https://www.typescriptlang.org/) type definitions for all `React.DetailedHTMLProps` for all HTML element types.
+This package includes convenience [TypeScript](https://www.typescriptlang.org/) type definitions for all `React.HTMLAttributes` for all HTML element types.
 
-For example, this allows you to specify `DivProps` instead of `React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>`. Because nobody wants to type all of that. 😁
+For example, this allows you to specify `DivProps` instead of `React.HTMLAttributes<HTMLDivElement>`. Because nobody wants to type all of that. 😁
 
 Using these types makes it easy to support all standard HTML props for your components.
 
