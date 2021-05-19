@@ -14,16 +14,22 @@
 
 ## Overview
 
-This package includes convenient [TypeScript](https://www.typescriptlang.org/) type definitions for all `React.HTMLAttributes`, for all HTML element types.
+This package includes convenient [TypeScript](https://www.typescriptlang.org/) type definitions for all HTML element React props.
 
-For example, this allows you to specify `DivProps` instead of `React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>`. Because nobody wants to type all of that. 😁
+For example, this allows you to use the type `DivProps` instead of:
+
+```tsx
+React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>
+```
+
+...Because nobody wants to type all of that. 😁
 
 Using these types makes it easy to support all standard HTML props for your components.
 
 ### Features include:
 
 - **🧩 TypeScript types for all HTML element props**
-  - Easily reference props for any HTML element with simple names like `DivProps`.
+  - Easily add types for HTML element props with simple names like `DivProps`.
 - **🧠 Easy to remember**
   - Types start with the HTML element name, so you'll never end up scratching your head.
 - **👍 Optional types without React ref**
@@ -185,7 +191,7 @@ You may need props that exclude the `ref` field inherited from `React.DetailedHT
 
 For this, all types have a `WithoutRef` option.
 
-For example, you can use `DivPropsWithoutRef` for a `div` without a React ref. 
+For example, you can use `DivPropsWithoutRef` for a `div` without a React `ref`. 
 
 Using the `div` example, `DivPropsWithoutRef` is defined as the following type:
 
@@ -193,7 +199,7 @@ Using the `div` example, `DivPropsWithoutRef` is defined as the following type:
 export type DivPropsWithoutRef = React.HTMLAttributes<HTMLDivElement>;
 ```
 
-> A `ref` may not always be applicable, so it remains optional to give you the flexibility. For instance, components returned by [`styled-components`](https://styled-components.com/) do not support React's `ref`.
+> A `ref` may not always be desirable, so it remains optional to give you the flexibility. For instance, components returned by [`styled-components`](https://styled-components.com/) may not support React's `ref` type.
 
 ## TypeScript
 
