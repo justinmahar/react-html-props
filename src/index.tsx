@@ -62,22 +62,13 @@ export type TableProps = React.HTMLAttributes<HTMLTableElement>;
 export type TableColProps = React.HTMLAttributes<HTMLTableColElement>;
 export type ColProps = TableColProps;
 export type ColGroupProps = TableColProps;
-export > 
-  React.HTMLAttributes<HTMLTableDataCellElement>,
-  HTMLTableDataCellElement
->;
+export type TableDataCellProps = React.HTMLAttributes<HTMLTableDataCellElement>;
 export type TDProps = TableDataCellProps;
-export > 
-  React.HTMLAttributes<HTMLTableHeaderCellElement>,
-  HTMLTableHeaderCellElement
->;
+export type TableHeaderCellProps = React.HTMLAttributes<HTMLTableHeaderCellElement>;
 export type THProps = TableHeaderCellProps;
 export type TableRowProps = React.HTMLAttributes<HTMLTableRowElement>;
 export type TRProps = TableRowProps;
-export > 
-  React.HTMLAttributes<HTMLTableSectionElement>,
-  HTMLTableSectionElement
->;
+export type TableSectionProps = React.HTMLAttributes<HTMLTableSectionElement>;
 export type THeadProps = TableSectionProps;
 export type TBodyProps = TableSectionProps;
 export type TFootProps = TableSectionProps;
