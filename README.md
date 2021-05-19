@@ -32,7 +32,7 @@ Using these types makes it easy to support all standard HTML props for your comp
 ## Installation
 
 ```
-npm i react-html-props
+npm i --save-dev react-html-props
 ```
 
 ## Quick Start
