@@ -16,7 +16,7 @@
 
 This package includes convenient [TypeScript](https://www.typescriptlang.org/) type definitions for all `React.HTMLAttributes`, for all HTML element types.
 
-For example, this allows you to specify `DivProps` instead of `React.HTMLAttributes<HTMLDivElement>`. Because nobody wants to type all of that. 😁
+For example, this allows you to specify `DivProps` instead of `React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>`. Because nobody wants to type all of that. 😁
 
 Using these types makes it easy to support all standard HTML props for your components.
 
@@ -26,8 +26,8 @@ Using these types makes it easy to support all standard HTML props for your comp
   - Easily reference props for any HTML element with simple names like `DivProps`.
 - **🧠 Easy to remember**
   - Types start with the HTML element name, so you'll never end up scratching your head.
-- **👍 Optional types for React ref**
-  - Where needed, use types for props inheriting `ref` from `React.DetailedHTMLProps`.
+- **👍 Optional types without React ref**
+  - Where needed, use types for props that don't inherit `ref` from `React.DetailedHTMLProps`.
 
 ## Installation
 
@@ -48,6 +48,8 @@ const MyComponent = (props: DivProps) => {
   return <div {...props}>My component</div>;
 };
 ```
+
+> `DivProps` is equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>`
 
 ## Unpacking Children
 
@@ -175,23 +177,23 @@ You can import any of the following types:
 | `webview`            | `WebViewProps`                    |
 | Generic HTML Element | `ElementProps`                    |
 
-> All types have a `WithRef` option that includes a `ref` field. See below.
+> All types have a `WithoutRef` option that excludes the React `ref` field. See below.
 
-## Props With Ref
+## Props Without Ref
 
-You may need props that include the `ref` field inherited from `React.DetailedHTMLProps`.
+You may need props that exclude the `ref` field inherited from `React.DetailedHTMLProps`.
 
-For this, all props have a `WithRef` option.
+For this, all types have a `WithoutRef` option.
 
-For example, you can use `DivPropsWithRef` for a `div` with a React ref. 
+For example, you can use `DivPropsWithoutRef` for a `div` with a React ref. 
 
-Using the `div` example, `DivPropsWithRef` is defined as the following type:
+Using the `div` example, `DivPropsWithoutRef` is defined as the following type:
 
 ```ts
-export type DivPropsWithRef = React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>;
+export type DivPropsWithoutRef = React.HTMLAttributes<HTMLDivElement>;
 ```
 
-> A `ref` may not always be applicable, so it remains optional to give you the flexibility. For instance, components returned by [`styled-components`](https://styled-components.com/) do not support a `ref`.
+> A `ref` may not always be applicable, so it remains optional to give you the flexibility. For instance, components returned by [`styled-components`](https://styled-components.com/) do not support React's `ref`.
 
 ## TypeScript
 
