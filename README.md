@@ -73,9 +73,9 @@ const render = () => (
 
 Types are available for all HTML props. See below for a table containing all supported types.
 
-## Unpacking Attributes
+## Unpacking Props
 
-We can use [object destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring) and the [spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) to unpack attributes, such as `children`, from the rest of an element's props.
+We can use [object destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring) and the [spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) to unpack props, such as `children`, from the rest of an element's props.
 
 Using `div` as an example again:
 
