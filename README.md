@@ -57,9 +57,9 @@ const MyComponent = (props: DivProps) => {
 
 > `DivProps` is equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>`
 
-## Unpacking Children
+## Unpacking Attributes
 
-We can use [object destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring) to unpack `children` from the rest of an element's props.
+We can use [object destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring) and the [spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) to unpack attributes, such as `children`, from the rest of an element's props.
 
 Using `div` as an example again:
 
@@ -96,7 +96,7 @@ export const KindleOfKittens = ({ children, kittenCount, ...divProps }: KindleOf
 };
 ```
 
-(Yes, a group of kittens is called a "kindle")
+(And yes, a group of kittens is called a "kindle")
 
 ## Included HTML Element Props
 
