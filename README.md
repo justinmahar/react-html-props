@@ -57,6 +57,18 @@ const MyComponent = (props: DivProps) => {
 
 > `DivProps` is equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>`
 
+You can then use all props supported by `div` in your own component:
+
+```tsx
+<MyComponent
+  className="text-center"
+  style={{ background: 'blue', color: 'white' }}
+  onClick={() => console.log('Get schwifty!')}
+>
+  Show me what you got
+</MyComponent>
+```
+
 ## Unpacking Attributes
 
 We can use [object destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring) and the [spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) to unpack attributes, such as `children`, from the rest of an element's props.
@@ -69,18 +81,6 @@ import { DivProps } from "react-html-props";
 export const MyComponent = ({ children, ...divProps }: DivProps): JSX.Element => {
   return <div {...divProps}>{children}</div>;
 };
-```
-
-You can then use all props supported by `div` in your own component:
-
-```tsx
-<MyComponent
-  className="text-center"
-  style={{ background: 'blue', color: 'white' }}
-  onClick={() => console.log('Get schwifty!')}
->
-  Show me what you got
-</MyComponent>
 ```
 
 ## Mixing With Custom Props
