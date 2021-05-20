@@ -51,13 +51,11 @@ You can use `DivProps` to support all props for `div` in your own components.
 import { DivProps } from "react-html-props";
 
 const MyComponent = (props: DivProps) => {
-  return <div {...props}>My component</div>;
+  return <div {...props}>{props.children}</div>;
 };
 ```
 
-> `DivProps` is equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>`
-
-You can then use all props supported by `div` in your own component:
+In this example, we're using `className`, `style`, and `onClick` on our own component since it supports all `div` props:
 
 ```tsx
 <MyComponent
@@ -68,6 +66,10 @@ You can then use all props supported by `div` in your own component:
   Show me what you got
 </MyComponent>
 ```
+
+> Note: `DivProps` is equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>`
+
+Props are available for all HTML elements. See below for a table containing all supported types.
 
 ## Unpacking Attributes
 
@@ -83,13 +85,11 @@ export const MyComponent = ({ children, ...divProps }: DivProps): JSX.Element =>
 };
 ```
 
-## Mixing With Custom Props
+## Extending HTML Props
 
-You will likely have your own props, of course. 
+You can extend all HTML props to add your own.
 
-In this case, simply extend the props for the element you'd like. For instance, `MyComponentProps extends DivProps`.
-
-Then use [object destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring) to unpack your desired props.
+Then use [object destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring) to unpack and use your own props.
 
 Just follow the example below:
 
@@ -98,11 +98,10 @@ interface KindleOfKittensProps extends DivProps {
   kittenCount: 10;
 }
 
-export const KindleOfKittens = ({ children, kittenCount, ...divProps }: KindleOfKittensProps): JSX.Element => {
+export const KindleOfKittens = ({ kittenCount, ...divProps }: KindleOfKittensProps): JSX.Element => {
   return (
     <div {...divProps}>
       <h1>I have a kindle of {kittenCount} kittens</h1>
-      <div>{children}</div>
     </div>
   );
 };
