@@ -58,13 +58,15 @@ const MyComponent = (props: DivProps) => {
 In this example, we're using `className`, `style`, and `onClick` on our own component since it supports all `div` props:
 
 ```tsx
-<MyComponent
-  className="text-center"
-  style={{ background: 'blue', color: 'white' }}
-  onClick={() => console.log('Get schwifty!')}
->
-  Show me what you got
-</MyComponent>
+const render = () => (
+  <MyComponent
+    className="text-center"
+    style={{ background: 'blue', color: 'white' }}
+    onClick={() => console.log('Get schwifty!')}
+  >
+    Show me what you got
+  </MyComponent>
+);
 ```
 
 > Note: `DivProps` is equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>`
