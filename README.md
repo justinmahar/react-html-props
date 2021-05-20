@@ -196,6 +196,8 @@ You can import any of the following types:
 | `webview`            | `WebViewProps`                    |
 | Generic HTML Element | `ElementProps`                    |
 
+For elements not listed above, such as `strong` and `small`, use the generic `ElementProps`. 
+
 > All types have a `WithoutRef` option that excludes the React `ref` field. See below.
 
 ## Props Without Ref
