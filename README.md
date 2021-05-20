@@ -204,15 +204,9 @@ You may need props that exclude the `ref` field inherited from `React.DetailedHT
 
 For this, all types have a `WithoutRef` option.
 
-For example, you can use `DivPropsWithoutRef` for a `div` without a React `ref`. 
+For example, you can use `DivPropsWithoutRef` for a `div` without a React `ref`, and is equivalent to `React.HTMLAttributes<HTMLDivElement>`.
 
-Using the `div` example, `DivPropsWithoutRef` is defined as the following type:
-
-```ts
-export type DivPropsWithoutRef = React.HTMLAttributes<HTMLDivElement>;
-```
-
-> A `ref` may not always be desirable, so it remains optional to give you the flexibility. For instance, components returned by [`styled-components`](https://styled-components.com/) may not support React's `ref` type.
+> A `ref` may not always be desirable, so it remains optional to give you flexibility. For instance, components returned by [`styled-components`](https://styled-components.com/) may not support React's `ref` type.
 
 ## TypeScript
 
