@@ -55,6 +55,8 @@ const MyComponent = (props: DivProps) => {
 };
 ```
 
+> Note: `DivProps` is equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>`
+
 In this example, we're using `className`, `style`, and `onClick` on our own component since it supports all `div` props:
 
 ```tsx
@@ -69,9 +71,7 @@ const render = () => (
 );
 ```
 
-> Note: `DivProps` is equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>`
-
-Props are available for all HTML elements. See below for a table containing all supported types.
+Types are available for all HTML props. See below for a table containing all supported types.
 
 ## Unpacking Attributes
 
@@ -109,7 +109,7 @@ export const KindleOfKittens = ({ kittenCount, ...divProps }: KindleOfKittensPro
 };
 ```
 
-(And yes, a group of kittens is called a "kindle")
+(Yes, a group of kittens is called a "kindle")
 
 ## Included HTML Element Props
 
@@ -204,7 +204,7 @@ You may need props that exclude the `ref` field inherited from `React.DetailedHT
 
 For this, all types have a `WithoutRef` option.
 
-For example, you can use `DivPropsWithoutRef` for a `div` without a React `ref`, and is equivalent to `React.HTMLAttributes<HTMLDivElement>`.
+For example, you can use `DivPropsWithoutRef` for a `div` without a React `ref`. `DivPropsWithoutRef` is equivalent to `React.HTMLAttributes<HTMLDivElement>`.
 
 > A `ref` may not always be desirable, so it remains optional to give you flexibility. For instance, components returned by [`styled-components`](https://styled-components.com/) may not support React's `ref` type.
 
