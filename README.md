@@ -24,7 +24,7 @@ React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>
 
 ...Because nobody wants to type all of that. 😁
 
-Using these types makes it easy to support all standard HTML props for your components.
+Using these types makes it easy to support all standard HTML props, such as `style` and `className`, in your own components.
 
 ### Features include:
 
@@ -69,6 +69,18 @@ import { DivProps } from "react-html-props";
 export const MyComponent = ({ children, ...divProps }: DivProps): JSX.Element => {
   return <div {...divProps}>{children}</div>;
 };
+```
+
+You can then use all props supported by `div` in your own component:
+
+```tsx
+<MyComponent
+  className="text-center"
+  style={{ background: 'blue', color: 'white' }}
+  onClick={() => console.log('Get schwifty!')}
+>
+  Show me what you got
+</MyComponent>
 ```
 
 ## Mixing With Custom Props
