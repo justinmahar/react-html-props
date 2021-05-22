@@ -123,7 +123,7 @@ You can import any of the following types:
 
 | HTML Element         | Props Type To Use                 |
 | -------------------- | --------------------------------- |
-| `a`                  | `AProps`, `AnchorProps`           |
+| `a`                  | `AProps`                          |
 | `area`               | `AreaProps`                       |
 | `audio`              | `AudioProps`                      |
 | `base`               | `BaseProps`                       |
@@ -151,8 +151,8 @@ You can import any of the following types:
 | `iframe`             | `IFrameProps`                     |
 | `img`                | `ImgProps`                        |
 | `input`              | `InputProps`                      |
-| `ins`                | `InsProps`, `ModProps`            |
-| `del`                | `DelProps`, `ModProps`            |
+| `ins`                | `InsProps`                        |
+| `del`                | `DelProps`                        |
 | `label`              | `LabelProps`                      |
 | `legend`             | `LegendProps`                     |
 | `li`                 | `LIProps`                         |
@@ -163,27 +163,27 @@ You can import any of the following types:
 | `ol`                 | `OLProps`                         |
 | `optgroup`           | `OptGroupProps`                   |
 | `option`             | `OptionProps`                     |
-| `p`                  | `PProps`, `ParagraphProps`        |
+| `p`                  | `PProps`                          |
 | `param`              | `ParamProps`                      |
 | `pre`                | `PreProps`                        |
 | `progress`           | `ProgressProps`                   |
-| `blockquote`         | `BlockQuoteProps`, `QuoteProps`   |
-| `q`                  | `QProps`, `QuoteProps`            |
-| `cite`               | `CiteProps`, `QuoteProps`         |
+| `blockquote`         | `BlockQuoteProps`                 |
+| `q`                  | `QProps`                          |
+| `cite`               | `CiteProps`                       |
 | `slot`               | `SlotProps`                       |
 | `script`             | `ScriptProps`                     |
-| `noscript`           | `NoScriptProps`, `ScriptProps`    |
+| `noscript`           | `NoScriptProps`                   |
 | `select`             | `SelectProps`                     |
 | `source`             | `SourceProps`                     |
 | `span`               | `SpanProps`                       |
 | `style`              | `StyleProps`                      |
 | `svg`                | `SVGProps`                        |
 | `table`              | `TableProps`                      |
-| `col`                | `ColProps`, `TableColProps`       |
-| `colgroup`           | `ColGroupProps`, `TableColProps`  |
-| `td`                 | `TDProps`, `TableDataCellProps`   |
-| `th`                 | `THProps`, `TableHeaderCellProps` |
-| `tr`                 | `TRProps`, `TableRowProps`        |
+| `col`                | `ColProps`                        |
+| `colgroup`           | `ColGroupProps`                   |
+| `td`                 | `TDProps`                         |
+| `th`                 | `THProps`                         |
+| `tr`                 | `TRProps`                         |
 | `thead`              | `THeadProps`, `TableSectionProps` |
 | `tbody`              | `TBodyProps`, `TableSectionProps` |
 | `tfoot`              | `TFootProps`, `TableSectionProps` |
