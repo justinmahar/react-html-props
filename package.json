@@ -9,7 +9,7 @@
   "scripts": {
     "build": "rm -rf ./dist && tsc",
     "watch": "tsc --watch",
-    "test": "echo No tests. This is a types library.",
+    "test": "npm run build",
     "lint": "eslint '*/**/*.{js,jsx,ts,tsx}' --quiet --fix",
     "preship": "npm run build && git add dist && git diff-index --quiet HEAD || git commit -m \"Build, version, and publish.\" && npm version patch -m \"Build, version, and publish.\"",
     "ship": "npm publish --access public",
