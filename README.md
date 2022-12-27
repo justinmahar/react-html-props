@@ -8,6 +8,9 @@
   <a href="https://badge.fury.io/js/react-html-props">
     <img src="https://badge.fury.io/js/react-html-props.svg" alt="npm Version"/>
   </a>
+  <a href="https://github.com/sponsors/justinmahar" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" alt="Sponsor"/>
+  </a>
 </p>
 
 ## Documentation
