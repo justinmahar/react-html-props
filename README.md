@@ -1,19 +1,19 @@
 <h2 align="center">
-  <a href="https://github.com/justinmahar/react-html-props">React HTML Props</a>
+  ⚛️ React HTML Props
 </h2>
 <h3 align="center">
   Convenient TypeScript types for all React HTML props.
 </h3>
 <p align="center">
-  <a href="https://badge.fury.io/js/react-html-props">
-    <img src="https://badge.fury.io/js/react-html-props.svg" alt="npm Version"/>
-  </a>
-  <a href="https://github.com/sponsors/justinmahar" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" alt="Sponsor"/>
-  </a>
+  <a href="https://badge.fury.io/js/react-html-props" target="_blank" rel="noopener noreferrer"><img src="https://badge.fury.io/js/react-html-props.svg" alt="npm Version" /></a>&nbsp;
+  <a href="https://github.com/justinmahar/react-html-props/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/GitHub-Source-success" alt="View project on GitHub" /></a>&nbsp;
+  <a href="https://github.com/justinmahar/react-html-props/actions?query=workflow%3ADeploy" target="_blank" rel="noopener noreferrer"><img src="https://github.com/justinmahar/react-html-props/workflows/Deploy/badge.svg" alt="Deploy Status" /></a>&nbsp;
+  <a href="https://github.com/sponsors/justinmahar" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" alt="Sponsor"/></a>
 </p>
 
 ## Documentation
+
+Read the **[official documentation](https://justinmahar.github.io/react-html-props/)**.
 
 ## Overview
 
@@ -38,7 +38,6 @@ Using these types makes it easy to support all standard HTML props, such as `sty
 - **👍 Optional types without React ref**
   - Where needed, use `WithoutRef` types for props that don't inherit `ref` from `React.DetailedHTMLProps`.
 
-
 [lock:donate]::🚫---------------------------------------
 
 ## Donate 
@@ -59,7 +58,7 @@ Your support helps keep the project going and will earn you some serious virtual
 
 [/lock:donate]::---------------------------------------🚫
 
-## Table of Contents
+## Table of Contents 
 
 - [Documentation](#documentation)
 - [Overview](#overview)
@@ -73,9 +72,10 @@ Your support helps keep the project going and will earn you some serious virtual
 - [Included HTML Element Props](#included-html-element-props)
 - [Props Without Ref](#props-without-ref)
 - [TypeScript](#typescript)
+- [Icon Attribution](#icon-attribution)
 - [Contributing](#contributing)
 - [⭐ Found It Helpful? Star It!](#-found-it-helpful-star-it)
-- [MIT License](#mit-license)
+- [License](#license)
 
 ## Installation
 
@@ -258,6 +258,14 @@ Type definitions have been included for [TypeScript](https://www.typescriptlang.
 
 [/lock:typescript]::---------------------------------------🚫
 
+[lock:icon]::🚫---------------------------------------
+
+## Icon Attribution
+
+Favicon by [Twemoji](https://github.com/twitter/twemoji).
+
+[/lock:icon]::---------------------------------------🚫
+
 [lock:contributing]::🚫---------------------------------------
 
 ## Contributing
@@ -274,26 +282,6 @@ For major changes, open an issue first to discuss what you'd like to change.
 
 If you found this project helpful, let the community know by giving it a [star](https://github.com/justinmahar/react-html-props/stargazers): [👉⭐](https://github.com/justinmahar/react-html-props/stargazers)
 
-## MIT License
+## License
 
-```
-Copyright © 2021 Justin Mahar https://github.com/justinmahar
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+See [LICENSE.md](https://justinmahar.github.io/react-html-props/?path=/story/license--page).
