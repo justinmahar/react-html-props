@@ -51,10 +51,6 @@ export type DivPropsWithoutRef = React.HTMLAttributes<HTMLDivElement>;
 export type DLProps = React.DetailedHTMLProps<React.HTMLAttributes<HTMLDListElement>, HTMLDListElement>;
 /** Equivalent to `React.HTMLAttributes<HTMLDListElement>` */
 export type DLPropsWithoutRef = React.HTMLAttributes<HTMLDListElement>;
-/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
-export type ElementProps = React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
-/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
-export type ElementPropsWithoutRef = React.HTMLAttributes<HTMLElement>;
 /** Equivalent to `React.DetailedHTMLProps<React.EmbedHTMLAttributes<HTMLEmbedElement>, HTMLEmbedElement>` */
 export type EmbedProps = React.DetailedHTMLProps<React.EmbedHTMLAttributes<HTMLEmbedElement>, HTMLEmbedElement>;
 /** Equivalent to `React.EmbedHTMLAttributes<HTMLEmbedElement>` */
@@ -320,3 +316,181 @@ export type VideoPropsWithoutRef = React.VideoHTMLAttributes<HTMLVideoElement>;
 export type WebViewProps = React.DetailedHTMLProps<React.WebViewHTMLAttributes<HTMLWebViewElement>, HTMLWebViewElement>;
 /** Equivalent to `React.WebViewHTMLAttributes<HTMLWebViewElement>` */
 export type WebViewPropsWithoutRef = React.WebViewHTMLAttributes<HTMLWebViewElement>;
+
+// === GENERIC ELEMENTS ===
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type ElementProps = React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type ElementPropsWithoutRef = React.HTMLAttributes<HTMLElement>;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type AbbrProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type AbbrPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type AddressProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type AddressPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type ArticleProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type ArticlePropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type AsideProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type AsidePropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type BProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type BPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type BDIProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type BDIPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type BDOProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type BDOPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type CaptionProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type CaptionPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type CodeProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type CodePropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type DDProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type DDPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type DetailsProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type DetailsPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type DfnProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type DfnPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type DTProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type DTPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type EmProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type EmPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type FigCaptionProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type FigCaptionPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type FigureProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type FigurePropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type FooterProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type FooterPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type HeaderProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type HeaderPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type HGroupProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type HGroupPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type IProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type IPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type KbdProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type KbdPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type MainProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type MainPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type MarkProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type MarkPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type MenuProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type MenuPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type MeterProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type MeterPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type NavProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type NavPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type OutputProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type OutputPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type PictureProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type PicturePropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type RPProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type RPPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type RTProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type RTPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type RubyProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type RubyPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type SProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type SPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type SampProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type SampPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type SectionProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type SectionPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type SmallProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type SmallPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type StrongProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type StrongPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type SubProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type SubPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type SummaryProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type SummaryPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type SupProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type SupPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type TimeProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type TimePropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type UProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type UPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type VarProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type VarPropsWithoutRef = ElementPropsWithoutRef;
+/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
+export type WBRProps = ElementProps;
+/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
+export type WBRPropsWithoutRef = ElementPropsWithoutRef;

@@ -236,9 +236,52 @@ You can import any of the following types:
 | `ul`                 | `ULProps`                         |
 | `video`              | `VideoProps`                      |
 | `webview`            | `WebViewProps`                    |
+| `abbr`               | `AbbrProps`                       |
+| `address`            | `AddressProps`                    |
+| `article`            | `ArticleProps`                    |
+| `aside`              | `AsideProps`                      |
+| `b`                  | `BProps`                          |
+| `bdi`                | `BDIProps`                        |
+| `bdo`                | `BDOProps`                        |
+| `caption`            | `CaptionProps`                    |
+| `code`               | `CodeProps`                       |
+| `dd`                 | `DDProps`                         |
+| `details`            | `DetailsProps`                    |
+| `dfn`                | `DfnProps`                        |
+| `dt`                 | `DTProps`                         |
+| `em`                 | `EmProps`                         |
+| `figcaption`         | `FigCaptionProps`                 |
+| `figure`             | `FigureProps`                     |
+| `footer`             | `FooterProps`                     |
+| `header`             | `HeaderProps`                     |
+| `hgroup`             | `HGroupProps`                     |
+| `i`                  | `IProps`                          |
+| `kbd`                | `KbdProps`                        |
+| `main`               | `MainProps`                       |
+| `mark`               | `MarkProps`                       |
+| `menu`               | `MenuProps`                       |
+| `meter`              | `MeterProps`                      |
+| `nav`                | `NavProps`                        |
+| `output`             | `OutputProps`                     |
+| `picture`            | `PictureProps`                    |
+| `rp`                 | `RPProps`                         |
+| `rt`                 | `RTProps`                         |
+| `ruby`               | `RubyProps`                       |
+| `s`                  | `SProps`                          |
+| `samp`               | `SampProps`                       |
+| `section`            | `SectionProps`                    |
+| `small`              | `SmallProps`                      |
+| `strong`             | `StrongProps`                     |
+| `sub`                | `SubProps`                        |
+| `summary`            | `SummaryProps`                    |
+| `sup`                | `SupProps`                        |
+| `time`               | `TimeProps`                       |
+| `u`                  | `UProps`                          |
+| `var`                | `VarProps`                        |
+| `wbr`                | `WBRProps`                        |
 | Generic HTML Element | `ElementProps`                    |
 
-For elements not listed above, such as `strong` and `small`, use the generic `ElementProps`.
+For any elements not listed above, use the generic `ElementProps`.
 
 ## Props Without Ref
 
