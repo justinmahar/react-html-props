@@ -296,6 +296,10 @@ export type TextAreaProps = React.DetailedHTMLProps<
 >;
 /** Equivalent to `React.TextareaHTMLAttributes<HTMLTextAreaElement>` */
 export type TextAreaPropsWithoutRef = React.TextareaHTMLAttributes<HTMLTextAreaElement>;
+/** Equivalent to `React.DetailedHTMLProps<React.TimeHTMLAttributes<HTMLTimeElement>, HTMLTimeElement>` */
+export type TimeProps = React.DetailedHTMLProps<React.TimeHTMLAttributes<HTMLTimeElement>, HTMLTimeElement>;
+/** Equivalent to `React.TimeHTMLAttributes<HTMLTimeElement>` */
+export type TimePropsWithoutRef = React.TimeHTMLAttributes<HTMLTimeElement>;
 /** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLTitleElement>, HTMLTitleElement>` */
 export type TitleProps = React.DetailedHTMLProps<React.HTMLAttributes<HTMLTitleElement>, HTMLTitleElement>;
 /** Equivalent to `React.HTMLAttributes<HTMLTitleElement>` */
@@ -478,10 +482,6 @@ export type SummaryPropsWithoutRef = ElementPropsWithoutRef;
 export type SupProps = ElementProps;
 /** Equivalent to `React.HTMLAttributes<HTMLElement>` */
 export type SupPropsWithoutRef = ElementPropsWithoutRef;
-/** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
-export type TimeProps = ElementProps;
-/** Equivalent to `React.HTMLAttributes<HTMLElement>` */
-export type TimePropsWithoutRef = ElementPropsWithoutRef;
 /** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
 export type UProps = ElementProps;
 /** Equivalent to `React.HTMLAttributes<HTMLElement>` */
