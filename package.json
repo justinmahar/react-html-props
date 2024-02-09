@@ -1,7 +1,7 @@
 {
   "name": "react-html-props",
   "version": "2.0.6",
-  "coreVersion": "3.0.4",
+  "coreVersion": "3.0.7",
   "author": "Justin Mahar <contact@justinmahar.com>",
   "description": "Convenient TypeScript types for all React HTML props.",
   "homepage": "https://github.com/justinmahar/react-html-props",
@@ -58,7 +58,7 @@
     "prettier": "^3.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-html-props": "^2.0.4",
+    "react-html-props": "^2.0.3",
     "react-markdown": "^8.0.3",
     "remark-gfm": "^3.0.1",
     "replace-in-file": "^7.1.0",
