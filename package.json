@@ -1,6 +1,6 @@
 {
   "name": "react-html-props",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "coreVersion": "3.0.4",
   "author": "Justin Mahar <contact@justinmahar.com>",
   "description": "Convenient TypeScript types for all React HTML props.",
