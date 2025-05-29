@@ -423,7 +423,7 @@ export type MenuProps = ElementProps;
 /** Equivalent to `React.HTMLAttributes<HTMLElement>` */
 export type MenuPropsWithoutRef = ElementPropsWithoutRef;
 /** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
-export type MeterProps = ElementProps;
+export type MeterProps = React.DetailedHTMLProps<React.MeterHTMLAttributes<HTMLMeterElement>, HTMLMeterElement>;
 /** Equivalent to `React.HTMLAttributes<HTMLElement>` */
 export type MeterPropsWithoutRef = ElementPropsWithoutRef;
 /** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
@@ -431,7 +431,7 @@ export type NavProps = ElementProps;
 /** Equivalent to `React.HTMLAttributes<HTMLElement>` */
 export type NavPropsWithoutRef = ElementPropsWithoutRef;
 /** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
-export type OutputProps = ElementProps;
+export type OutputProps = React.DetailedHTMLProps<React.OutputHTMLAttributes<HTMLOutputElement>, HTMLOutputElement>;
 /** Equivalent to `React.HTMLAttributes<HTMLElement>` */
 export type OutputPropsWithoutRef = ElementPropsWithoutRef;
 /** Equivalent to `React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>` */
